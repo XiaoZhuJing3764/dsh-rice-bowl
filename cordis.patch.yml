@@ -1,0 +1,10 @@
+# dsh-rice-bowl mount point. config is passed to apply(ctx, config) as-is.
+- insert:
+    - id: balance
+      name: dsh-rice-bowl
+      config:
+        enabled: true
+        currency: CNY
+        ttlMs: 15000
+        timeoutMs: 10000
+        keyFile: ''
